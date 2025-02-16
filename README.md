@@ -28,3 +28,36 @@ The Ecommerce business offers a group of whitelist customers a special promotion
 | **customer_id** | Dimension | unique id of each users |
 | **group** | Dimension | group1: show screen A, group2: show screen B |
 | **is_buy** | Measure | whether that user buy the subscription or not |
+
+## **III. PROBLEM SOLVING**
+
+### **1. Design A/B testing experiment**
+
+**Hypothesis Statement:** If we change the promotional content on the banner to align with Screen B, the conversion rate of users buying the membership subscription will be higher than Screen A
+
+**Measurable Metrics:**
+
+- **Primary Metrics:** Conversion rate of users buying the subscription
+- **Counter Metrics:** The lag time for loading banner
+
+**Sample pool:** All users who use our app
+
+**External Factors:** Bugs in user app, System Errors,...
+
+### **2. Hypothesis Testing**
+
+![Image](https://github.com/user-attachments/assets/c8010a2a-9c17-431b-93dc-ecf5424221e2)
+
+**The test result is significant**
+
+H0: The conversion rate between Screen A & Screen B is not different
+
+H1: The conversion rate between Screen A & Screen B is different
+
+**Chi-square test result:**
+
+p_value = 0.0000 < 0.05
+
+=> Reject H0
+
+**The conversion rate between Screen A & Screen B is different**
