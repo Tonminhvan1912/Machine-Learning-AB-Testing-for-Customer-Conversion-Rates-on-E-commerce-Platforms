@@ -18,3 +18,13 @@ The Ecommerce business offers a group of whitelist customers a special promotion
 **Screen B:** show a discount amount in price (discount 100K)
 
 *Notes: the original price of the subscription package is 199K, and with the promotion, they can buy with 99K*
+
+## **II. DATA DICTIONARY**
+
+**Dataset:** abtesting
+
+| Field | Type of Column | Information |
+| --- | --- | --- |
+| **customer_id** | Dimension | unique id of each users |
+| **group** | Dimension | group1: show screen A, group2: show screen B |
+| **is_buy** | Measure | whether that user buy the subscription or not |
