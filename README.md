@@ -61,3 +61,12 @@ p_value = 0.0000 < 0.05
 => Reject H0
 
 **The conversion rate between Screen A & Screen B is different**
+
+![Image](https://github.com/user-attachments/assets/fee0bf64-721b-4d46-97b9-f063762c8748)
+
+Comment:
+
+- Screen A has a **higher conversion rate** compared to Variation B.
+- The relative uplift of -16% indicates that **Screen B has decreased by 16% compared to Screen A**.
+
+==> **Screen A is the better option**, as it has a higher conversion rate
